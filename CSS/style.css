@@ -1,0 +1,39 @@
+@import url(./footer.css);
+@import url(./header.css);
+@import url(./hero.css);
+@import url(./main.css);
+
+:root {
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Montserrat;
+}
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 195px;
+}
+
+nav {
+  padding: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  transition: 0.3s;
+}
+.navbar-shrink {
+  padding: 20px 0;
+}
+.nav-links {
+  display: flex;
+  gap: 28px;
+}
+
+a {
+  text-decoration: none;
+}
